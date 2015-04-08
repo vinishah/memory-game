@@ -1,0 +1,88 @@
+.board{
+width: 45%;
+margin: 0 auto;
+color: red;
+}
+
+.tile{
+text-align: center;
+margin: 0 auto;
+display: inline-block;
+width: 24%;
+height: 120px;
+border: 1px solid black;
+border-radius: 10px;
+background: #4f738e;
+vertical-align: top; 
+font-size: 80px;
+line-height: 150px;
+background-size: 100% 100%;
+}
+
+.highscore{
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  padding: 0 100px 0 100px;
+}
+
+.timer{
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+  display: inline;
+  border: 1px solid white;
+  margin: 2px;
+  border-radius: 5px;
+}
+.timer-box{
+  padding: 40px;
+}
+
+.up{
+  background-image: url("images/a.jpg");
+}
+
+.up.two{
+  background-image: url("images/b.jpg");
+}
+
+.up.three{
+  background-image: url("images/c.jpg");
+}
+
+.up.four{
+  background-image: url("images/d.jpg");
+}
+
+.up.five{
+  background-image: url("images/e.jpg");
+}
+
+.up.six{
+  background-image: url("images/f.jpg");
+}
+
+.up.seven{
+  background-image: url("images/g.jpg");
+}
+
+.up.eight{
+  background-image: url("images/h.png");
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-family: helvetica;
+}
+
+html { 
+  background: url('images/background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: black;
+  font-family: helvetica;
+}
